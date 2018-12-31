@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@android:color/background_light"
+    tools:context="br.com.senai.stdevelopment.MenuActivity"
+    tools:layout_editor_absoluteY="73dp">
+
+    <TextView
+        android:id="@+id/btnMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/txtMenu"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/btnLista"
+        android:layout_width="120dp"
+        android:layout_height="123dp"
+        android:backgroundTint="@android:color/background_light"
+        app:srcCompat="@mipmap/lista_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="447dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ImageButton
+        android:id="@+id/btnQuem"
+        android:layout_width="123dp"
+        android:layout_height="117dp"
+        android:backgroundTint="@android:color/background_light"
+        app:srcCompat="@mipmap/quemsomos_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <ImageButton
+        android:id="@+id/btnInfo"
+        android:layout_width="124dp"
+        android:layout_height="115dp"
+        android:backgroundTint="@android:color/background_light"
+        app:srcCompat="@mipmap/info_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <ImageButton
+        android:id="@+id/btnContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/background_light"
+        app:srcCompat="@mipmap/contatoo_foreground"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que fazemos?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:text="Quem somos?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contato"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listagem"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="470dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="89dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="LOGOUT"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="495dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</android.support.constraint.ConstraintLayout>
